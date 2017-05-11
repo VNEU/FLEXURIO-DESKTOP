@@ -5,8 +5,8 @@ var electrify = require('electrify')(__dirname);
 var window    = null;
 
 app.on('ready', function() {
-    process.env.MONGO_URL="mongodb://103.253.107.113:10010/ERP";
-    process.env.ROOT_URL="http://103.253.107.113:10011";
+    process.env.MONGO_URL="mongodb://[USERNAME]:[PASSWORD]@[YOUR IP MONGODB]:[YOURPORT]/[YOURDB]";
+    process.env.ROOT_URL="http://[YOUR ROOT URL FLEXURIO]";
 
   // electrify start
   electrify.start(function(meteor_root_url) {
