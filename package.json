@@ -1,5 +1,5 @@
 {
-  "name": "PORTAL NUTRIMAX",
+  "name": "[YOUR APP NAME]",
   "main": "index.js",
   "dependencies": {
     "electrify": "2.1.4"
