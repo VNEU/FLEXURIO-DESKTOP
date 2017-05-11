@@ -1,0 +1,8 @@
+{
+  "name": "PORTAL NUTRIMAX",
+  "main": "index.js",
+  "dependencies": {
+    "electrify": "2.1.4"
+  },
+  "icon":"logo.png"
+}
